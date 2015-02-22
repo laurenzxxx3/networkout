@@ -1,0 +1,17 @@
+mongo info 
+
+in 1 terminal 
+sudo /usr/local/bin/mongod 
+
+in another 
+mongo
+
+keep both running to use the mongo database 
+http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+http://docs.mongodb.org/manual/tutorial/getting-started/
+https://scotch.io/tutorials/an-introduction-to-mongodb
+http://docs.mongodb.org/manual/reference/connection-string/
+
+in mongo
+use lgt // where everything is stored
+db.users.find(); // lists all users in database

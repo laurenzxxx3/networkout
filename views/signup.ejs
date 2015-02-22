@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<!--
+	Laurenz Gallopyn
+	
+	http://www.dummies.com/how-to/content/how-to-put-text-boxes-in-an-html5-form.html
+	http://diveintohtml5.info/forms.html
+	https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+
+	Verti by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Sign up</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+		<div id="big-header">			
+				<h1>Sign up</h1>
+		</div>
+		<div id="form-wrapper">
+			<form action="/signup" method="post">
+				<fieldset>
+					<legend id="big-label">Account Info</legend>
+					<p>
+					  <label>Username</label>
+					  <input type = "text"
+							 id = "myText"
+							 value = "Username"
+							 name = "usrname" />
+					</p>
+					<p>
+					  <label>Password</label>
+					  <input type = "password"
+							  id = "myPwd"
+							  value = "password"
+							  name = "password" />
+					</p>
+					<p>
+					  <label>Email</label>
+					  <input type = "email"
+							  id = "myEmail"
+							  value = "user@user.com" />
+					</p>
+					
+					<legend id="big-label">Personal Info</legend>					
+					<p>
+					  <label>Name</label>
+					  <input type = "text"
+							 id = "myName"
+							 value = "Name" />
+					</p>
+					<div class="block">					
+						<p>
+						  <label>Age</label>
+						  <input type = "date"
+								 id = "myAge"
+								 value = "Age" />
+						</p>
+					</div>
+					<div class="block">					
+						<p>
+						  <label>Sex</label>
+						  <input type="radio" 
+								 name="sex" 
+								 value="Male" />Male
+							 
+						  <input type="radio" 
+								 name="sex" 
+								 value="Female" />Female					  		 					  
+						</p>
+					</div>					
+					<p>
+					  <label>Location</label>
+					  <input type = "text"
+							 id = "myLocation"
+							 value = "Location" />
+					</p>
+										
+					<div class="block">	
+						<p>
+						  <label>Height</label>
+						  <input type = "number"
+								 id = "myHeight"
+								 value = "Height" />
+						</p>
+					</div>
+					<div class="block">	
+						<p>
+						  <label>Starting Weight</label>
+						  <input type = "number"
+								 id = "myStartingWeight"
+								 value = "Starting Weight" />
+						</p>
+					</div>
+					<legend id="big-label">Goal</legend>
+					<div class="block">	
+						<p>
+						  <label>Goal Weight</label>
+						  <input type = "number"
+								 id = "myGoalWeight"
+								 value = "Goal weight" />
+						</p>
+					</div>
+					<div class="block">	
+						<p>
+						  <label>Goal training days per week</label>
+						  <input type = "number"
+								 id = "myGoal"
+								 value = "goal" />
+						</p>
+					</div>
+					<legend id="big-label">Extra</legend>
+					<p>
+					  <label>Equipment</label>
+					  <input type = "text"
+							 id = "myEquipment"
+							 value = "Equipment" />
+					</p>
+					<p>
+					  <label>Interests</label>
+					  <input type = "text"
+							 id = "myInterests"
+							 value = "Interests" />
+					</p>
+					<a href="/" class="button">Back</a>					
+					<button type="submit" class="button alt">Sign up</button>																						               		  			
+				</fieldset>
+			</form>
+    	</div>
+	</body>
+</html>
