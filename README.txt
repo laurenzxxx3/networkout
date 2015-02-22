@@ -27,6 +27,12 @@ use networkout // where everything is stored
 db.users.find(); // lists all users in database
 db.users.remove({}); // removes all users in database 
 
+Versioning GIT
+link to project on github 
+https://github.com/laurenzxxx3/networkout.git
+connecting git to a remote server with ssh access 
+http://toroid.org/ams/git-website-howto
+
 links
 http://stackoverflow.com/questions/13395742/can-not-get-css-file
 http://blog.modulus.io/nodejs-and-express-static-content
