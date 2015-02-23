@@ -28,6 +28,8 @@ links
 http://stackoverflow.com/questions/13395742/can-not-get-css-file
 http://blog.modulus.io/nodejs-and-express-static-content
 
+excellent tutorial on using passport for user authentication
+
 examples for main pages
 http://cdn.designrfix.com/wp-content/uploads/2014/01/dashboard-design-61.jpg
 https://dribbble.com/shots/862738-Fitness-Web-App-Sessions
