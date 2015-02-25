@@ -64,6 +64,16 @@ module.exports = function(passport) {
                 newUser.local.usrname    = usrname;
                 newUser.local.password = newUser.generateHash(password);
                 newUser.local.email = req.param('email');
+                newUser.local.name = req.param('name');        
+				newUser.local.age = req.param('age'); 
+				newUser.local.sex = req.param('sex'); 
+				newUser.local.location = req.param('location'); 
+				newUser.local.height = req.param('height'); 
+				newUser.local.startingWeight = req.param('startingWeight'); 
+				newUser.local.goalWeight = req.param('goalWeight'); 
+				newUser.local.goal = req.param('goal'); 
+				newUser.local.equipment = req.param('equipment'); 
+				newUser.local.interestes = req.param('interests'); 
 
                 // save the user
                 newUser.save(function(err) {
