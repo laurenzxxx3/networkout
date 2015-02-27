@@ -13,11 +13,14 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="/js/angular.min.js"></script>
 		<script src="/js/jquery.min.js"></script>
 		<script src="/js/jquery.dropotron.min.js"></script>
 		<script src="/js/skel.min.js"></script>
 		<script src="/js/skel-layers.min.js"></script>
 		<script src="/js/init.js"></script>
+		<script src="/js/dashboard/dashboardApp.js"></script>
+		<script src="/js/dashboard/calenderController.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="/css/skel.css" />
 			<link rel="stylesheet" href="/css/style.css" />
@@ -25,7 +28,7 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body class="homepage">
+	<body class="homepage" ng-app="dashboardApp">
 
 		<!-- Header -->
 		<div id="header-wrapper">
@@ -73,6 +76,14 @@
 						<td>Saturday</td>
 					</tr>
 				</table>
+			</div>
+		</div>
+		<br>
+		<div id="banner-wrapper" ng-controller="calenderController">
+			<div id="banner" class="box container">
+				<p>TESTING ANGULAR: {{5+5}}</p>	
+				<p>TEST CONTROLLER: {{test[0].name}}</p>
+				<p>ANGULAR-MONGO-USER: {{user}}</p>			
 			</div>
 		</div>
 	</body>
